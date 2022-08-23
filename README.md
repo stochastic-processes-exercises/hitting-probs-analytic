@@ -20,22 +20,22 @@ In this expression, I is the identity matrix, Q is a matrix that describes the t
 
 Remember that you can set a variables equal to Q and R by using the `np.array` command.  You can then get a 3x3 identity matrix by using the following command:
 
-````
+```python
 I = np.identity(3)
-`````
+```
 
 To invert the matrix `A` you can use the following command:
 
-````
+```python
 inv = np.linalg.inv( A )
-````
+```
 
 Lastly, if you want to multiply the matrix `A` by the matrix `B` you use:
 
-````
+```python
 # The quantity C that is output here is a matrix
 C = np.dot(  A, B )
-````
+```
 
 You should be able to use the commands above to compute the hitting probabilities using the formula above.  Your task here is, therefore, to use these ideas to draw a bar chart.  The x-coordinates of the bars should be set equal to the label for the initial transient states in the graph above.  The heights of the bars should then be equal to the probability of absorption in state 5.  The title for the x-axis should be "Initial state".  The title for the y-axis should be "Probability of absorption in state 5".
 
