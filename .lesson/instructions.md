@@ -12,9 +12,7 @@ The transition matrix that corresponds to the Markov chain in the figure above i
 
 It is straightforward to show that the matrix of hitting probabilities can be calculated using:
 
-$$
-\mathbf{H}=(\mathbf{I}-\mathbf{Q})^{-1}\mathbf{R}
-$$
+![](equation.png)
 
 In this expression, I is the identity matrix, Q is a matrix that describes the transition probablities between the transient states and R is a matrix that describes the transition probabilities from the transient states to the absorbing states.  For the Markov chain whose transition matrix is given above Q and R are given by:
 
